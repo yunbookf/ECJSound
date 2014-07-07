@@ -14,6 +14,15 @@ ECJSound = {
 	stop: function() {
 		ECJSound.flash.ecStop();
 	},
+	pause: function() {
+		ECJSound.flash.ecPause();
+	},
+	setVolume: function(v) {
+		ECJSound.flash.ecSetVolume(v);
+	},
+	setPosition: function(p) {
+		ECJSound.flash.ecSetPosition(p);
+	},
 	onProgress: function() {
 		
 	},
@@ -24,6 +33,7 @@ ECJSound = {
 		
 	},
 	onSoundComplete: function() {
+		
 	}
 };
 
